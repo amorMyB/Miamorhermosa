@@ -10,10 +10,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
 <style>
 
-  /* ===================================================================
-     TOKENS — rosa y dorado, suave y romántico
-  =================================================================== */
-
   :root{
     --fondo: #fbeee7;
     --fondo-2: #f6ddd4;
@@ -112,10 +108,6 @@
 
   ::selection{ background: var(--oro-suave); color: var(--vino); }
 
-  /* ===================================================================
-     FLORITURA — elemento de firma: un adorno lineal dorado que
-     separa cada sección, como el trazo de una pluma al cerrar una carta
-  =================================================================== */
 
   .floritura{
     display: flex;
@@ -127,9 +119,7 @@
   .floritura path{ fill: none; stroke: var(--oro); stroke-width: 1; }
   .floritura circle{ fill: var(--oro); }
 
-  /* ===================================================================
-     BARRA DE PROGRESO — fina línea superior que avanza con el scroll
-  =================================================================== */
+
 
   .progreso-pista{
     position: fixed;
@@ -146,9 +136,6 @@
     transition: width 0.12s linear;
   }
 
-  /* ===================================================================
-     FONDO AMBIENTAL
-  =================================================================== */
 
   .cielo{
     position: fixed;
@@ -225,9 +212,7 @@
     to{ opacity: 1; transform: translateY(0); }
   }
 
-  /* ===================================================================
-     SECCIONES
-  =================================================================== */
+
 
   section{ padding: 7rem 0; position: relative; }
   section + section{ border-top: 1px solid var(--linea); }
@@ -247,9 +232,8 @@
   }
   .oculto.visible{ opacity: 1; transform: translateY(0); }
 
-  /* ===================================================================
-     CONTADOR
-  =================================================================== */
+
+  
 
   .placa{
     background: var(--blanco);
@@ -297,9 +281,7 @@
     color: var(--oro-texto);
   }
 
-  /* ===================================================================
-     CARTA
-  =================================================================== */
+
 
   .carta-envoltura{ display: flex; justify-content: center; }
 
@@ -370,9 +352,7 @@
     text-align: left;
   }
 
-  /* ===================================================================
-     MOTIVOS
-  =================================================================== */
+
 
   .motivos{
     display: grid;
@@ -396,9 +376,6 @@
     color: var(--tinta-suave);
   }
 
-  /* ===================================================================
-     GALERIA
-  =================================================================== */
 
   .galeria{
     display: grid;
@@ -446,9 +423,8 @@
 
   .galeria .marco:first-child{ grid-column: span 2; }
 
-  /* ===================================================================
-     CIERRE
-  =================================================================== */
+
+  
 
   .cierre{ text-align: center; padding-bottom: 6rem; }
   .cierre blockquote{
@@ -501,7 +477,7 @@
 
 <div class="progreso-pista"><div class="progreso-relleno" id="progreso-relleno"></div></div>
 
-<!-- ============ HERO ============ -->
+
 <section class="hero">
   <p class="eyebrow">11 de diciembre de 2024</p>
   <h1 class="titulo">Para ti,<span class="grande">mi amor</span></h1>
@@ -531,7 +507,7 @@
   </div>
 </section>
 
-<!-- ============ PROXIMO ANIVERSARIO ============ -->
+
 <section id="proximo">
   <div class="contenedor">
     <div class="titulo-seccion oculto">
@@ -560,7 +536,7 @@
         <div class="encabezado-carta"><p class="eyebrow">11 de septiembre de 2026</p></div>
         <p class="saludo">Holaaa, mi amorcito linda 💗</p>
 
-        <p>Cómo tash, mi niña bonita 💗 ¿Cómo le fue en la escuelita al amor de mi vida? 😻</p>
+        
 
         <p>Ya por fin otro mes más juntos, amor, ya hoy un año y 9 meses.</p>
 
@@ -580,7 +556,7 @@
   </div>
 </section>
 
-<!-- ============ PROMESAS ============ -->
+
 <section id="promesas">
   <div class="contenedor">
     <div class="titulo-seccion oculto">
@@ -596,7 +572,7 @@
   </div>
 </section>
 
-<!-- ============ GALERIA ============ -->
+
 <section id="galeria">
   <div class="contenedor">
     <div class="titulo-seccion oculto">
@@ -636,7 +612,6 @@
   </div>
 </section>
 
-<!-- ============ CIERRE ============ -->
 <section class="cierre">
   <div class="contenedor">
     <div class="floritura oculto">
